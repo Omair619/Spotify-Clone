@@ -109,7 +109,7 @@ ul li a{
     color: white;
     height: 80px;
     position: sticky;
-    bottom: 0px;
+    bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
