@@ -59,9 +59,10 @@ ul li a{
 
 .song-container .heading h1{
     background-color: lightcyan;
-    border-radius: 20px;
+    border-radius: 45px;
     padding: 0px 10px;
     font-size: 2rem;
+    text-align: center;
 }
 
 .song-container .heading{
