@@ -107,7 +107,6 @@ ul li a{
 .bottom{
     background-color: black;
     color: white;
-    height: 80px;
     position: sticky;
     bottom: 0;
     z-index: 1;
