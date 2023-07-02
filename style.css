@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul{
+    background-color: black;
+    height: 60px;
+    display: flex; 
+    align-items: center;
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+    padding: 0px 25px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.logo img{
+    width: 45px;
+    padding-right: 8px;
+}
+
+.container{
+    background-image: url(bg.jpg);
+    width: 80vw;
+    margin:  40px auto;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.song-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.song-container .heading h1{
+    background-color: lightcyan;
+    border-radius: 20px;
+    padding: 0px 10px;
+    font-size: 2rem;
+}
+
+.song-container .heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 6vh;
+}
+
+.songitem{
+    background-color: lightcyan;
+    border-radius: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5vw;
+    margin: 3vw 3vw;
+}
+
+.duration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.duration i{
+    cursor: pointer;
+}
+
+.songitem img{
+    width: 35px;
+    border-radius: 20px;
+}
+
+.songlist{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 7vh 0;
+}
+
+.bottom{
+    background-color: black;
+    color: white;
+    height: 80px;
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#progressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.try{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+}
+
+.songinfo{
+    width: 24vw;
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    margin: 5px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#songtime{
+    position: absolute;
+    right: 80px;
+    top: 5px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+    .icons .fa-3x{
+        font-size: 2em;
+    }
+}

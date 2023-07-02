@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - it's music time!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png" alt="">Spotify</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="song-container">
+            <div class="heading">
+                <h1>Best English Songs</h1>
+            </div>
+            <div class="songlist">
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songname">Baby</span>
+                    <span class="duration">03:39 <i id="0" class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span class="songname">Akcent_King_of_disco</span>
+                    <span class="duration">02:58 <i id="1" class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span class="songname">Danza-Kuduro</span>
+                    <span class="duration">04:18 <i id="2" class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span class="songname">Despacito</span>
+                    <span class="duration">04:41 <i id="3" class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span class="songname">Imagine_Dragons_-_Demons</span>
+                    <span class="duration">02:55 <i id="4" class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span class="songname">Into Your Arms</span>
+                    <span class="duration">02:20 <i id="5" class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/7.jpg" alt="1">
+                    <span class="songname">Love Me Like You Do</span>
+                    <span class="duration">04:13 <i id="6" class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/8.jpg" alt="1">
+                    <span class="songname">Love-Story---Taylor-Swift-</span>
+                    <span class="duration">03:56 <i id="7" class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songname">NF_-_My_Life_CeeNaija</span>
+                    <span class="duration">03:35 <i id="8" class="far songItemPlay fa-play-circle"></i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="" id="progressbar" min="0" max="100" value="0">
+        <div class="try">
+            <div class="songinfo">
+                <span id="mastersongname">Baby</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-3x fa-step-backward" id="previous"></i>
+                <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+                <i class="fas fa-3x fa-step-forward" id="next"></i>
+            </div>
+            <div class="songinfo">
+                <img src="playing.gif" alt="" width="70px" id="gif">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
