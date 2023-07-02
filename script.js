@@ -10,7 +10,7 @@ let songitem=Array.from(document.getElementsByClassName("songitem"));
 let songItemPlay=document.getElementsByClassName("songItemPlay");
 let song=[
     {songname: "Baby", filepath: "songs/1.mp3", coverpath: "covers/1.jpg"},
-    {songname: "Akcent_King_of_disco", filepath: "songs/2.mp3", coverpath: "covers/2.jpg"},
+    {songname: "King_of_disco", filepath: "songs/2.mp3", coverpath: "covers/2.jpg"},
     {songname: "Danza-Kuduro", filepath: "songs/3.mp3", coverpath: "covers/3.jpg"},
     {songname: "Despacito", filepath: "songs/4.mp3", coverpath: "covers/4.jpg"},
     {songname: "Imagine_Dragons_-_Demons", filepath: "songs/5.mp3", coverpath: "covers/5.jpg"},
