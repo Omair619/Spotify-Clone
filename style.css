@@ -11,6 +11,7 @@ nav{
     position: sticky;
     top: 0px;
     z-index: 1;
+    margin-bottom: 40px;
 }
 
 nav ul{
@@ -46,7 +47,7 @@ ul li a{
 .container{
     background-image: url(bg.jpg);
     width: 80vw;
-    margin:  40px auto;
+    margin:  auto auto;
     background-size: cover;
     border-radius: 10px;
 }
@@ -113,6 +114,7 @@ ul li a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 40px;
 }
 
 #progressbar{
