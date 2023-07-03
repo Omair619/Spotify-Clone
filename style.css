@@ -9,7 +9,7 @@ body{
 
 nav{
     position: sticky;
-    top: 0;
+    top: 0px;
     z-index: 1;
 }
 
@@ -107,7 +107,7 @@ ul li a{
     background-color: black;
     color: white;
     position: sticky;
-    bottom: 0;
+    bottom: 0px;
     z-index: 1;
     display: flex;
     justify-content: center;
