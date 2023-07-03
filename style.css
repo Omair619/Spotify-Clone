@@ -5,6 +5,9 @@
 
 body{
     background-color: lightcyan;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 nav{
@@ -113,6 +116,7 @@ ul li a{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: auto;
 }
 
 #progressbar{
